@@ -7,6 +7,6 @@ TypeScript, no framework. The page reads a live list from the shared Supabase te
 
 | App | Folder | Production | Preview gate |
 |---|---|---|---|
-| Teasel | `apps/teasel-7wq` | _not deployed_ | yes |
-| Burdock | `apps/burdock-m2x` | _not deployed_ | yes |
-| Vetch | `apps/vetch-h5n` | _not deployed_ | yes |
+| Teasel | `apps/teasel-7wq` | https://rush-scar-w3j7-teasel-7wq.netlify.app | yes |
+| Burdock | `apps/burdock-m2x` | https://rush-scar-w3j7-burdock-m2x.netlify.app | yes |
+| Vetch | `apps/vetch-h5n` | https://rush-scar-w3j7-vetch-h5n.netlify.app | yes |
