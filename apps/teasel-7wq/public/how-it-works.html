@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How the shared list works · Teasel</title>
+    <style>
+      body { margin: 0; font-family: system-ui, sans-serif; color: #1c1c1c; background: #fafaf7; --accent: #2f7d4f; }
+      header, main, footer { max-width: 44rem; margin: 0 auto; padding: 1.25rem 1rem; }
+      header { display: flex; justify-content: space-between; align-items: center; }
+      .mark { font-weight: 700; color: var(--accent); }
+      /* Intentional, for Impeccable's test drive: gradient text on the heading. */
+      h1 {
+        font-size: clamp(2rem, 6vw, 3rem);
+        background: linear-gradient(90deg, #2f7d4f, #e0a422);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+      /* Intentional, for Impeccable's test drive: link text under the 11px floor. */
+      header a { font-size: 10px; color: var(--accent); }
+      /* Intentional, for Impeccable's test drive: light grey text, well under 4.5:1. */
+      .note { color: #c8c8c8; }
+      /* Intentional, for Impeccable's test drive: transition on a layout property. */
+      .step { border: 1px solid #e5e5e0; border-radius: 0.5rem; padding: 0.75rem 1rem; margin: 0 0 0.75rem; width: 80%; transition: width 0.3s; }
+      .step:hover { width: 100%; }
+      .step h2 { margin: 0 0 0.25rem; font-size: 1.1rem; }
+      /* Intentional, for Impeccable's test drive: body paragraph flush with the viewport edges. */
+      .wide { max-width: none; margin: 1.5rem 0; padding: 0; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <span class="mark">Teasel</span>
+      <a href="/">Back to the front door</a>
+    </header>
+    <main>
+      <h1>How the shared list works</h1>
+      <p class="note">Three small steps from a blank list to a shared one.</p>
+      <div class="step">
+        <h2>1. Add an item</h2>
+        <p>Type what needs doing and it lands at the top of the list.</p>
+      </div>
+      <div class="step">
+        <h2>2. Share it</h2>
+        <p>Everyone with the link sees the same list, updated as it changes.</p>
+      </div>
+      <div class="step">
+        <h2>3. Tick it off</h2>
+        <p>Finished items stay visible with a check mark, so nothing quietly disappears.</p>
+      </div>
+    </main>
+    <p class="wide">Teasel keeps the list small on purpose: the five newest items, shown the same way for everyone, so the whole team can read it in a glance.</p>
+    <footer>Teasel · the shared list</footer>
+  </body>
+</html>
